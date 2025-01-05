@@ -3,7 +3,7 @@
 
 ---
 ## 📚 Description:
-Pneumonia🩻 is a life-threatening infectious disease affecting one or both lungs in humans commonly caused by bacteria called Streptococcus pneumoniae. One in three deaths in world is caused due to pneumonia as reported by World Health Organization (WHO)
+Pneumonia🩻 is a life-threatening infectious disease affecting one or both lungs in humans commonly caused by bacteria called Streptococcus pneumonia. One in three deaths in world is caused due to pneumonia as reported by World Health Organization (WHO)
 
 ---
 ## Table of Contents
