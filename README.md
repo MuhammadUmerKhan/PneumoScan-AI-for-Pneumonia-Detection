@@ -109,7 +109,7 @@ To set up this project locally:
 
 3. **Run the training script**:  
     ```bash
-    python train_pneumonia_model.py
+    streamlit run pneumonia_detector.py
     ```
 
 ---  
