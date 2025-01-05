@@ -55,7 +55,7 @@ specifically to detect Pneumonia.
 
 ## 📊 Data Insights
 
-Explore profound insights and analytics gained from our extensive dataset. Uncover a deeper understanding of customer behaviors, patterns in service usage.
+Explore profound insights and analytics gained from our extensive dataset.
 | Feature                                      | Visualization                                                                                       |
 |----------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | After Agumentation                           | ![Augmentation](https://github.com/MuhammadUmerKhan/Medial-Pneumonia-Classification/blob/main/imgs/train_test_val.png)   |
