@@ -1,18 +1,30 @@
 # 🩺 Pneumonia Classification System 📷
 ![img](https://miro.medium.com/v2/resize:fit:1400/1*caVi5_pTsarvYlqkarijOg.png)
 
+---
+## 📚 Description:
 Pneumonia🩻 is a life-threatening infectious disease affecting one or both lungs in humans commonly caused by bacteria called Streptococcus pneumoniae. One in three deaths in world is caused due to pneumonia as reported by World Health Organization (WHO)
 
 ---
-
-# Problem Statement:
+## Table of Contents
+- [🔍 Problem Statement](#problem-statement)
+- [🔧 Methodology](#methodology)
+- [📊 Data Insights](#data-insights)
+- [💻 Technologies Used](#-technologies-used)  
+- [✔️ Current Work](#-current-work)  
+- [🎯 Planned Future Enhancements](#-planned-future-enhancements)  
+- [🚀 Getting Started](#-getting-started)  
+- [🔄 Prerequisites](#-prerequisites)  
+- [📚 Acknowledgments](#-acknowledgments)  
+---
+# 🔍 Problem Statement:
 
 Chest X-Rays which are used to diagnose pneumonia need expert radiotherapists for evaluation. Thus, developing an automatic system for detecting pneumonia would be beneficial for treating the disease without any delay particularly in remote areas. Due to the success of deep learning algorithms in analyzing medical images, Convolutional Neural Networks (CNNs) have gained much attention for disease classification. In addition, features earned by pre-trained CNN models on large-scale datasets are much useful in image classification tasks. In this work, we appraise the functionality of pre-trained CNN models utilized as feature-extractors followed by different classifiers for the classification of abnormal and normal chest X-Rays. We analytically determine the optimal CNN model for the purpose. Statistical results obtained demonstrates that pretrained CNN models employed along with supervised classifier algorithms can be very beneficial in analyzing chest X-ray images, 
 specifically to detect Pneumonia.
 
 ---
 
-## Methodology
+## 🔧 Methodology
 
 1. **Data Collection and Preparation:**
    - Collected a dataset of chest X-ray images containing two categories: NORMAL and PNEUMONIA, sourced from publicly available datasets.
@@ -41,59 +53,13 @@ specifically to detect Pneumonia.
    - Emphasized usability and integration for healthcare professionals, enabling early diagnosis and better patient outcomes.
 ---
 
-## Data Insights
+## 📊 Data Insights
 
 Explore profound insights and analytics gained from our extensive dataset. Uncover a deeper understanding of customer behaviors, patterns in service usage.
 | Feature                                      | Visualization                                                                                       |
 |----------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | After Agumentation                           | ![Augmentation](https://github.com/MuhammadUmerKhan/Medial-Pneumonia-Classification/blob/main/imgs/train_test_val.png)   |
-| NORMAL Image                                 | ![Nomal](https://github.com/MuhammadUmerKhan/Medial-Pneumonia-Classification/blob/main/imgs/normal.jpeg)  |
-| Defected Image                               | ![Pneumonia](https://github.com/MuhammadUmerKhan/Medial-Pneumonia-Classification/blob/main/imgs/pnemunia.jpeg)   |
 | Loss and Accuracy over epcohs                | ![error_vs_loss](https://github.com/MuhammadUmerKhan/Medial-Pneumonia-Classification/blob/main/imgs/loss_accuracy.png)   |
-
----
-
-## 📚 Table of Contents  
-- [🔍 Overview](#-overview)  
-- [🔧 Project Structure](#-project-structure)  
-- [💻 Technologies Used](#-technologies-used)  
-- [✔️ Current Work](#-current-work)  
-- [🎯 Planned Future Enhancements](#-planned-future-enhancements)  
-- [🚀 Getting Started](#-getting-started)  
-- [🔄 Prerequisites](#-prerequisites)  
-- [📚 Acknowledgments](#-acknowledgments)  
-
----  
-
-## 📚 Description:
-
-**Pneumonia Classification**: Pneumonia is a serious respiratory infection that affects millions globally. Early and accurate detection is essential for effective treatment and improved patient outcomes. By leveraging advancements in image processing and deep learning, this system automates the classification of chest X-rays, distinguishing between normal and pneumonia-affected cases.
-
----  
-
-## 🔍 Overview  
-
-This project uses **InceptionV3** and **Transfer Learning** to classify chest X-ray images. The model is trained on an augmented, balanced dataset to achieve high accuracy and reliability in detection.  
-
----  
-
-## 🔧 Project Structure  
-
-1. **Data Preprocessing**:  
-   - Cleaned, augmented, and balanced the dataset for improved generalization.  
-   - Split data into training, validation, and testing sets (80%, 15%, 5%).
-2. **Image Resizing**:  
-   - Converted images to a consistent size of (256, 256) for efficient processing.  
-3. **Data Augmentation**:  
-   - Augmented only the "Normal" class to address class imbalance:  
-     - Rotation  
-     - Flipping  
-     - Brightness adjustments  
-4. **Model Architecture**:  
-   - Built using **InceptionV3** with Transfer Learning for optimal accuracy.  
-   - Achieved a test accuracy of **93.06%**.  
-5. **Evaluation**:  
-   - Generated classification reports, confusion matrices, and accuracy plots to analyze performance.  
 
 ---  
 
@@ -101,7 +67,7 @@ This project uses **InceptionV3** and **Transfer Learning** to classify chest X-
 
 - **Python**: Core programming language.  
 - **TensorFlow/Keras**: For building and training the deep learning model.  
-- **NumPy & Pandas**: For data handling.  
+- **NumPy**: For data handling.  
 - **Matplotlib & Seaborn**: For visualizing data and results.  
 
 ---  
@@ -160,7 +126,4 @@ To set up this project locally:
 
 - **Dataset**:  
    - Chest X-ray dataset sourced from [Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia).  
-- **Mentors and Contributors**:  
-   - Special thanks to Sir Nasir Faisal for his guidance and support during the project.  
-
 ---  
