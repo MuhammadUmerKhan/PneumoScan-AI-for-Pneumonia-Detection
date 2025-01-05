@@ -7,7 +7,7 @@ from tensorflow.keras.preprocessing.image import load_img, img_to_array
 # Streamlit page configuration
 st.set_page_config(
     page_title="Pneumonia Disease Detector",
-    page_icon="❌",
+    page_icon="🤒",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -178,17 +178,17 @@ with tab1:
 
 
     # Future Work Section
-    st.markdown('<div class="section-title">🚀 Future Work</div>', unsafe_allow_html=True)
-    st.markdown("""
-        <div class="content">
-            While this project currently focuses on potato plant disease classification, I aim to expand its scope to cover:
-            <ul>
-                <li><span class="highlight">🌾 Multi-Crop Disease Detection:</span> Incorporating classification models for other crops like tomatoes, wheat, and corn.</li>
-                <li><span class="highlight">🤝 Farmer-Friendly Mobile App:</span> Developing a user-friendly mobile application to enable real-time field diagnosis and recommendations for farmers.</li>
-            </ul>
-            These enhancements aim to provide a comprehensive tool for farmers and agricultural researchers, contributing to sustainable farming practices. 🌱
-        </div>
-    """, unsafe_allow_html=True)
+    # st.markdown('<div class="section-title">🚀 Future Work</div>', unsafe_allow_html=True)
+    # st.markdown("""
+    #     <div class="content">
+    #         While this project currently focuses on potato plant disease classification, I aim to expand its scope to cover:
+    #         <ul>
+    #             <li><span class="highlight">🌾 Multi-Crop Disease Detection:</span> Incorporating classification models for other crops like tomatoes, wheat, and corn.</li>
+    #             <li><span class="highlight">🤝 Farmer-Friendly Mobile App:</span> Developing a user-friendly mobile application to enable real-time field diagnosis and recommendations for farmers.</li>
+    #         </ul>
+    #         These enhancements aim to provide a comprehensive tool for farmers and agricultural researchers, contributing to sustainable farming practices. 🌱
+    #     </div>
+    # """, unsafe_allow_html=True)
 
     st.markdown('<div class="section-title">💻 Technologies & Tools</div>', unsafe_allow_html=True)
     st.markdown("""

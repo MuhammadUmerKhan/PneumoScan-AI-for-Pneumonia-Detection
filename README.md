@@ -99,7 +99,7 @@ To set up this project locally:
 
 1. **Clone the repository**:  
    ```bash  
-   git clone https://github.com/MuhammadUmerKhan/Pneumonia-Classification-System.git
+   git clone https://github.com/MuhammadUmerKhan/Medial-Pneumonia-Classification.git
    ```
 
 2. **Install the required packages**:  
