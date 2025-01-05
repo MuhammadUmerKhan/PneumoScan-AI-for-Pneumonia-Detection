@@ -116,7 +116,7 @@ with tab1:
             Here are some of the key projects I have worked on:
             <ul>
                 <li><span class="highlight">📋 Description:</span> 
-                    Pneumonia is a life-threatening infectious disease affecting one or both lungs in humans commonly caused by bacteria called Streptococcus pneumoniae. 
+                    Pneumonia🩻 is a life-threatening infectious disease affecting one or both lungs in humans commonly caused by bacteria called Streptococcus pneumoniae. 
                     One in three deaths in world is caused due to pneumonia as reported by World Health Organization (WHO). 
                     Chest X-Rays which are used to diagnose pneumonia need expert radiotherapists for evaluation. 
                     Thus, developing an automatic system for detecting pneumonia would be beneficial for treating the 
@@ -228,12 +228,12 @@ with tab2:
     with col2:
         if uploaded_file is not None:
             # Preprocess the image
-            image = image.resize((256, 256))  # Resize as per model input
+            image = image.resize((150, 150))  # Resize as per model input
             image_array = np.array(image) / 255.0  # Normalize to [0, 1]
             image_batch = np.expand_dims(image_array, axis=0)  # Add batch dimension
 
             # Load the model
-            pneumonia_classifier_model = tf.keras.models.load_model('./model/pnemonia_classifier_v1.h5')
+            pneumonia_classifier_model = tf.keras.models.load_model('./model/pnemonia_classifier_v2.h5')
             class_names = ["Normal", "Pneumonia"]
 
             # Make predictions
