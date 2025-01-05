@@ -195,7 +195,7 @@ with tab1:
         <div class="content">
             <ul>
                 <li><span class="highlight">🔤 Languages & Libraries:</span> Python, NumPy, Pandas, Matplotlib, TensorFlow, Keras, and Scikit-Learn.</li>
-                <li><span class="highlight">⚙️ Approaches:</span> Convolutional Neural Networks (CNNs), Data Augmentation, Transfer Learning, and Image Preprocessing Techniques.</li>
+                <li><span class="highlight">⚙️ Approaches:</span> Pre-trained CNNs, Data Augmentation, Transfer Learning, and Image Preprocessing Techniques.</li>
                 <li><span class="highlight">🌐 Deployment:</span> Streamlit for building an interactive, user-friendly web-based system.</li>
             </ul>
         </div>
