@@ -1,4 +1,4 @@
-# 🩺 Pneumonia Classification System 📷
+# 🩺 PneumoScan: AI for Pneumonia Detection 📷
 ![img](https://miro.medium.com/v2/resize:fit:1400/1*caVi5_pTsarvYlqkarijOg.png)
 
 ---
