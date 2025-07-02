@@ -58,8 +58,8 @@ specifically to detect Pneumonia.
 Explore profound insights and analytics gained from our extensive dataset.
 | Feature                                      | Visualization                                                                                       |
 |----------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| After Agumentation                           | ![Augmentation](https://github.com/MuhammadUmerKhan/Medial-Pneumonia-Classification/blob/main/imgs/train_test_val.png)   |
-| Loss and Accuracy over epcohs                | ![error_vs_loss](https://github.com/MuhammadUmerKhan/Medial-Pneumonia-Classification/blob/main/imgs/loss_accuracy.png)   |
+| After Agumentation                           | ![Augmentation](https://github.com/MuhammadUmerKhan/Medial-Pneumonia-Classification/blob/main/assets/train_test_val.png)   |
+| Loss and Accuracy over epcohs                | ![error_vs_loss](https://github.com/MuhammadUmerKhan/Medial-Pneumonia-Classification/blob/main/assets/loss_accuracy.png)   |
 
 ---  
 
